@@ -63,6 +63,9 @@ function renderPosts(photos) {
             heartIcon.classList.toggle('fa-solid')
         })
     }
+
+    // add eventListeners to all comment buttons
+
     const commentButtons = document.querySelectorAll('.postComment');
     const commentContainer = document.querySelector('.comment-items');
     for (let i = 0; i < commentButtons.length; i++){
